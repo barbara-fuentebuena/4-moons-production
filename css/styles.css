@@ -126,6 +126,8 @@ header {
           margin-top: 10px;
           line-height: 0;
           letter-spacing: 0; }
+  .main__banner #buttonsMobile {
+    display: none; }
 
 .youtube__main {
   overflow: hidden;
@@ -246,3 +248,121 @@ footer {
   margin-top: 50px; }
 
 /*-- responsive --*/
+/* responsive desktop */
+@media screen and (max-width: 1136px) {
+  .past__events .past__events__container {
+    flex-direction: column; }
+  .events {
+    width: 90%; }
+  .youtube__main {
+    width: 90%; } }
+
+/*responsive tablet horizontal */
+@media screen and (max-width: 993px) {
+  .main__title .main__title__sub1 {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    padding-right: 15px; }
+  .main__title .main__title__sub2 {
+    width: 50%; } }
+
+/*responsive tablet vertical */
+@media screen and (max-width: 700px) {
+  .main__banner .main__title #title1 h2 {
+    font-size: 14rem; }
+  .main__banner .main__title #title2 h5 {
+    font-size: 1rem; }
+  .main__banner .main__title #title2 h1 {
+    font-size: 3rem; }
+  .main__banner .main__title #title2 #mainButtons {
+    display: none; }
+  .main__banner #buttonsMobile {
+    display: block;
+    text-align: center;
+    position: relative; }
+    .main__banner #buttonsMobile a {
+      margin-inline: 10px; }
+  .sponsors .sponsors__logos .sponsors__logos__icons {
+    display: block;
+    text-align: center; } }
+
+/*responsive mobile*/
+@media screen and (max-width: 428px) {
+  .main__banner .main__title #title1 h2 {
+    font-size: 10rem; }
+  .main__banner .main__title #title2 h1 {
+    font-size: 2rem; }
+  .events {
+    width: 95%; }
+    .events .event {
+      margin-inline: 10px; }
+      .events .event .event__description {
+        display: flex; }
+        .events .event .event__description .event__date {
+          margin-inline: 10px; }
+          .events .event .event__description .event__date h4 {
+            font-size: 20px; }
+          .events .event .event__description .event__date p {
+            font-size: 18px; }
+        .events .event .event__description .event__name {
+          margin-inline: 10px; }
+          .events .event .event__description .event__name h4 {
+            font-size: 20px; }
+          .events .event .event__description .event__name p {
+            font-size: 18px; }
+  .past__events {
+    margin-bottom: 0; }
+    .past__events .past__events__container {
+      width: 100%;
+      flex-direction: column;
+      align-items: center; }
+      .past__events .past__events__container .event {
+        text-align: center;
+        padding: 0;
+        margin-block: 20px; }
+        .past__events .past__events__container .event hr {
+          opacity: 0; }
+        .past__events .past__events__container .event .event__info {
+          flex-direction: column;
+          align-items: center; }
+          .past__events .past__events__container .event .event__info img {
+            width: 95%;
+            height: auto;
+            text-align: center; }
+          .past__events .past__events__container .event .event__info .event__text {
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 10px;
+            text-align: justify; }
+            .past__events .past__events__container .event .event__info .event__text p {
+              color: #dedbdb; }
+            .past__events .past__events__container .event .event__info .event__text a {
+              width: fit-content;
+              align-self: center;
+              margin-top: 15px; }
+  .sponsors {
+    margin-top: 30px; }
+  .separation_footer {
+    width: 95%; } }
+
+@media screen and (max-width: 380px) {
+  .main__banner .main__title #title1 h2 {
+    font-size: 9rem; }
+  .main__banner .main__title #title2 h1 {
+    font-size: 2rem; }
+  .youtube__main {
+    width: 100%; }
+  .sponsors {
+    width: 100%; }
+    .sponsors .sponsors__logos .sponsors__logos__icons {
+      display: block;
+      text-align: center;
+      margin: 10px;
+      padding: 0; }
+      .sponsors .sponsors__logos .sponsors__logos__icons img {
+        width: 90px; }
+  .separation_footer {
+    width: 95%; } }
