@@ -1,0 +1,16 @@
+/*styles buttons*/
+
+@mixin buttons ($color_bg, $color_lt, $border, $color_bg_hover){
+    background-color: $color_bg;
+    padding: 15px;
+    color: $color_lt;
+    text-decoration: none;
+    border: $border solid 1px;
+    font-size: 1rem;
+    &:hover{
+        background-color: $color_bg_hover;
+        color: white;
+        border: $color_bg_hover solid 1px;
+        transition: 0.3s;
+    }
+}

@@ -1,0 +1,9 @@
+.primaryButton{
+    @include buttons($color_buttons, white, $color_buttons, $color_buttons_hover);
+}
+.secondaryButton{
+    @include buttons(transparent, $color_buttons, $color_buttons, $color_buttons_hover);
+}
+.terciaryButton{
+    @include buttons(transparent, white, white, $color_buttons_hover)
+}

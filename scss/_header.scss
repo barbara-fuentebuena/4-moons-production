@@ -1,0 +1,36 @@
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    nav{
+        text-align: center;
+        margin: 20px;
+        img{
+            width: 10rem;
+        }
+        #menu{
+            display: flex;
+            justify-content: center;
+            a{
+                text-decoration: none;
+                li{
+                    color: white;
+                    list-style: none;
+                    margin-inline: 20px;
+                    letter-spacing: 0.2rem;
+                    padding: 20px;
+                    font-weight: 400;
+                    font-size: 0.75rem;
+                }
+                &:hover{
+                    text-decoration: underline;
+                    color: white;
+                    transition: 0.5s;
+                }
+            }
+        }
+    }
+}

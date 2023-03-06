@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+@import "colors";
+@import "fonts";
+@import "mixin";
+@import "buttons";
+
+/*---------------*/
+
+@import "header";
+@import "main";
+@import "footer";
+
+/*-- responsive --*/
+
